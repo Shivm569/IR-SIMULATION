@@ -1,0 +1,13 @@
+type,indicator,description,confidence,mitre
+ip,203.0.113.45,Attacker VPN source (unusual country),high,T1078
+ip,198.51.100.77,Exfiltration destination,high,T1041
+domain,secure-docs-login[.]example,Phishing credential harvesting site,high,T1566.002
+domain,acme-billing[.]example,Phishing sender domain,high,T1566.002
+domain,cdn-update[.]example,Second-stage loader / C2,high,T1071.001
+sha256,9f2b1c7e5d3a4b6f8e0a1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0dc41e,nvloader.exe (fictional hash),high,T1003.001
+filename,nvloader.exe,Dropper/credential dumper in C:\Users\Public\,high,T1105
+filename,README_RESTORE.txt,Ransom note,high,T1486
+extension,.nvlock,Encrypted file extension,high,T1486
+command,vssadmin delete shadows /all /quiet,Shadow copy deletion,high,T1490
+account,svc-backup,Compromised service account,high,T1078
+account,priya.sharma,Compromised user account,high,T1078

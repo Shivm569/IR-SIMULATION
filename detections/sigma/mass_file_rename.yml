@@ -1,0 +1,16 @@
+title: Mass File Rename to Ransomware Extension
+id: 7a1c2e55-0b6e-4d0e-9a62-1a2b3c4d5e05
+status: experimental
+description: Over 1000 renames to a new uniform extension within 2 minutes on a file server (T1486).
+author: IR Simulation Project
+date: 2026/03/10
+tags: [attack.impact, attack.t1486]
+logsource:
+  category: file_event
+  product: windows
+detection:
+  selection:
+    TargetFilename|endswith: '.nvlock'
+  timeframe: 2m
+  condition: selection | count() by Computer > 1000
+level: critical

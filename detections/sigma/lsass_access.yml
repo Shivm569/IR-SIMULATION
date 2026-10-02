@@ -1,0 +1,18 @@
+title: Suspicious Process Access to LSASS
+id: 7a1c2e55-0b6e-4d0e-9a62-1a2b3c4d5e03
+status: stable
+description: Non-system process reading LSASS memory (credential dumping, T1003.001).
+author: IR Simulation Project
+date: 2026/03/10
+tags: [attack.credential_access, attack.t1003.001]
+logsource:
+  category: process_access
+  product: windows
+detection:
+  selection:
+    TargetImage|endswith: '\lsass.exe'
+    GrantedAccess: ['0x1010', '0x1410', '0x1fffff']
+  filter:
+    SourceImage|startswith: 'C:\Windows\System32\'
+  condition: selection and not filter
+level: critical

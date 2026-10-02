@@ -1,0 +1,82 @@
+{"ts": "2026-03-10T07:02:13Z", "source": "DC-01", "host": "WS-021", "user": "kavya.nair", "event": "logon_success", "details": {"logon_type": 2, "src_host": "WS-021"}}
+{"ts": "2026-03-10T07:31:59Z", "source": "DC-01", "host": "WS-011", "user": "rahul.mehta", "event": "logon_success", "details": {"logon_type": 2, "src_host": "WS-011"}}
+{"ts": "2026-03-10T07:52:25Z", "source": "VPN-GW", "host": "VPN-GW", "user": "neha.singh", "event": "vpn_login", "details": {"src_ip": "192.0.2.44", "country": "IN", "mfa": false}}
+{"ts": "2026-03-10T07:53:59Z", "source": "DC-01", "host": "WS-014", "user": "priya.sharma", "event": "logon_success", "details": {"logon_type": 2, "src_host": "WS-014"}}
+{"ts": "2026-03-10T07:57:04Z", "source": "VPN-GW", "host": "VPN-GW", "user": "amit.verma", "event": "vpn_login", "details": {"src_ip": "192.0.2.75", "country": "IN", "mfa": false}}
+{"ts": "2026-03-10T08:05:52Z", "source": "DC-01", "host": "WS-014", "user": "priya.sharma", "event": "logon_failed", "details": {"logon_type": 2, "src_host": "WS-014"}}
+{"ts": "2026-03-10T08:38:24Z", "source": "DC-01", "host": "WS-021", "user": "kavya.nair", "event": "logon_failed", "details": {"logon_type": 2, "src_host": "WS-021"}}
+{"ts": "2026-03-10T08:42:00Z", "source": "MAIL-GW", "host": "MAIL-GW", "user": "priya.sharma", "event": "email_delivered", "details": {"sender": "invoice-update@acme-billing.example", "subject": "Invoice #88231 overdue"}}
+{"ts": "2026-03-10T08:47:00Z", "source": "PROXY-01", "host": "WS-014", "user": "priya.sharma", "event": "web_visit", "details": {"url": "https://secure-docs-login.example/office365"}}
+{"ts": "2026-03-10T08:49:00Z", "source": "PROXY-01", "host": "WS-014", "user": "priya.sharma", "event": "web_post", "details": {"url": "https://secure-docs-login.example/office365/login", "bytes": 612}}
+{"ts": "2026-03-10T08:55:40Z", "source": "PROXY-01", "host": "WS-003", "user": "amit.verma", "event": "web_visit", "details": {"url": "https://intranet.novatech.example/wiki"}}
+{"ts": "2026-03-10T09:15:00Z", "source": "VPN-GW", "host": "VPN-GW", "user": "priya.sharma", "event": "vpn_login", "details": {"src_ip": "203.0.113.45", "country": "RO", "mfa": false}}
+{"ts": "2026-03-10T09:32:55Z", "source": "DC-01", "host": "WS-011", "user": "rahul.mehta", "event": "logon_success", "details": {"logon_type": 2, "src_host": "WS-011"}}
+{"ts": "2026-03-10T09:35:33Z", "source": "VPN-GW", "host": "VPN-GW", "user": "kavya.nair", "event": "vpn_login", "details": {"src_ip": "192.0.2.87", "country": "IN", "mfa": false}}
+{"ts": "2026-03-10T10:04:05Z", "source": "DC-01", "host": "WS-014", "user": "svc-backup", "event": "logon_failed", "details": {"logon_type": 3, "src_host": "WS-014"}}
+{"ts": "2026-03-10T10:04:12Z", "source": "DC-01", "host": "WS-014", "user": "svc-backup", "event": "logon_failed", "details": {"logon_type": 3, "src_host": "WS-014"}}
+{"ts": "2026-03-10T10:04:19Z", "source": "DC-01", "host": "WS-014", "user": "svc-backup", "event": "logon_failed", "details": {"logon_type": 3, "src_host": "WS-014"}}
+{"ts": "2026-03-10T10:04:26Z", "source": "DC-01", "host": "WS-014", "user": "svc-backup", "event": "logon_failed", "details": {"logon_type": 3, "src_host": "WS-014"}}
+{"ts": "2026-03-10T10:04:33Z", "source": "DC-01", "host": "WS-014", "user": "svc-backup", "event": "logon_failed", "details": {"logon_type": 3, "src_host": "WS-014"}}
+{"ts": "2026-03-10T10:04:40Z", "source": "DC-01", "host": "WS-014", "user": "svc-backup", "event": "logon_failed", "details": {"logon_type": 3, "src_host": "WS-014"}}
+{"ts": "2026-03-10T10:05:10Z", "source": "DC-01", "host": "WS-014", "user": "svc-backup", "event": "logon_success", "details": {"logon_type": 3, "src_host": "WS-014"}}
+{"ts": "2026-03-10T10:07:04Z", "source": "PROXY-01", "host": "WS-021", "user": "kavya.nair", "event": "web_visit", "details": {"url": "https://news.example/tech"}}
+{"ts": "2026-03-10T10:08:47Z", "source": "VPN-GW", "host": "VPN-GW", "user": "rahul.mehta", "event": "vpn_login", "details": {"src_ip": "192.0.2.84", "country": "IN", "mfa": false}}
+{"ts": "2026-03-10T10:18:37Z", "source": "DC-01", "host": "WS-007", "user": "neha.singh", "event": "logon_success", "details": {"logon_type": 2, "src_host": "WS-007"}}
+{"ts": "2026-03-10T10:30:00Z", "source": "EDR-LEGACY", "host": "WS-014", "user": "priya.sharma", "event": "process_create", "details": {"image": "powershell.exe", "cmdline": "powershell.exe -nop -w hidden -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQA", "parent": "winword.exe"}}
+{"ts": "2026-03-10T10:31:00Z", "source": "PROXY-01", "host": "WS-014", "user": "priya.sharma", "event": "web_visit", "details": {"url": "https://cdn-update.example/nvloader.exe"}}
+{"ts": "2026-03-10T10:42:00Z", "source": "SYSMON", "host": "WS-014", "user": "priya.sharma", "event": "process_access", "details": {"image": "C:\\Users\\Public\\nvloader.exe", "target": "lsass.exe", "access": "0x1010", "sha256": "9f2b1c7e5d3a4b6f8e0a1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0dc41e"}}
+{"ts": "2026-03-10T10:42:05Z", "source": "VPN-GW", "host": "VPN-GW", "user": "amit.verma", "event": "vpn_login", "details": {"src_ip": "192.0.2.39", "country": "IN", "mfa": false}}
+{"ts": "2026-03-10T11:01:14Z", "source": "PROXY-01", "host": "WS-003", "user": "amit.verma", "event": "web_visit", "details": {"url": "https://intranet.novatech.example/wiki"}}
+{"ts": "2026-03-10T11:10:00Z", "source": "FS-01", "host": "FS-01", "user": "svc-backup", "event": "logon_success", "details": {"logon_type": 3, "src_host": "WS-014"}}
+{"ts": "2026-03-10T11:11:15Z", "source": "DC-01", "host": "WS-021", "user": "kavya.nair", "event": "logon_failed", "details": {"logon_type": 2, "src_host": "WS-021"}}
+{"ts": "2026-03-10T11:24:40Z", "source": "DC-01", "host": "WS-003", "user": "amit.verma", "event": "logon_failed", "details": {"logon_type": 2, "src_host": "WS-003"}}
+{"ts": "2026-03-10T11:25:00Z", "source": "DC-01", "host": "DC-01", "user": "svc-backup", "event": "logon_success", "details": {"logon_type": 10, "src_host": "WS-014"}}
+{"ts": "2026-03-10T11:37:48Z", "source": "DC-01", "host": "WS-021", "user": "kavya.nair", "event": "logon_success", "details": {"logon_type": 2, "src_host": "WS-021"}}
+{"ts": "2026-03-10T11:56:03Z", "source": "PROXY-01", "host": "WS-011", "user": "rahul.mehta", "event": "web_visit", "details": {"url": "https://intranet.novatech.example/wiki"}}
+{"ts": "2026-03-10T12:03:03Z", "source": "DC-01", "host": "WS-014", "user": "priya.sharma", "event": "logon_success", "details": {"logon_type": 2, "src_host": "WS-014"}}
+{"ts": "2026-03-10T12:06:38Z", "source": "VPN-GW", "host": "VPN-GW", "user": "kavya.nair", "event": "vpn_login", "details": {"src_ip": "192.0.2.43", "country": "IN", "mfa": false}}
+{"ts": "2026-03-10T12:10:00Z", "source": "FW", "host": "FS-01", "user": "svc-backup", "event": "net_egress", "details": {"dst_ip": "198.51.100.77", "bytes": 4200000000, "port": 443}}
+{"ts": "2026-03-10T12:10:13Z", "source": "VPN-GW", "host": "VPN-GW", "user": "rahul.mehta", "event": "vpn_login", "details": {"src_ip": "192.0.2.44", "country": "IN", "mfa": false}}
+{"ts": "2026-03-10T12:46:15Z", "source": "DC-01", "host": "WS-021", "user": "kavya.nair", "event": "logon_success", "details": {"logon_type": 2, "src_host": "WS-021"}}
+{"ts": "2026-03-10T12:48:05Z", "source": "DC-01", "host": "WS-007", "user": "neha.singh", "event": "logon_success", "details": {"logon_type": 2, "src_host": "WS-007"}}
+{"ts": "2026-03-10T12:56:45Z", "source": "PROXY-01", "host": "WS-014", "user": "priya.sharma", "event": "web_visit", "details": {"url": "https://intranet.novatech.example/wiki"}}
+{"ts": "2026-03-10T13:00:59Z", "source": "VPN-GW", "host": "VPN-GW", "user": "kavya.nair", "event": "vpn_login", "details": {"src_ip": "192.0.2.68", "country": "IN", "mfa": false}}
+{"ts": "2026-03-10T13:10:30Z", "source": "DC-01", "host": "WS-007", "user": "neha.singh", "event": "logon_failed", "details": {"logon_type": 2, "src_host": "WS-007"}}
+{"ts": "2026-03-10T13:18:29Z", "source": "PROXY-01", "host": "WS-003", "user": "amit.verma", "event": "web_visit", "details": {"url": "https://intranet.novatech.example/wiki"}}
+{"ts": "2026-03-10T13:22:29Z", "source": "DC-01", "host": "WS-021", "user": "kavya.nair", "event": "logon_failed", "details": {"logon_type": 2, "src_host": "WS-021"}}
+{"ts": "2026-03-10T13:30:00Z", "source": "SYSMON", "host": "FS-01", "user": "svc-backup", "event": "process_create", "details": {"image": "vssadmin.exe", "cmdline": "vssadmin delete shadows /all /quiet", "parent": "cmd.exe"}}
+{"ts": "2026-03-10T13:32:00Z", "source": "FS-01", "host": "FS-01", "user": "svc-backup", "event": "service_stop", "details": {"service": "BackupExecAgent"}}
+{"ts": "2026-03-10T13:35:00Z", "source": "FS-01", "host": "FS-01", "user": "svc-backup", "event": "file_rename_bulk", "details": {"count": 18452, "new_extension": ".nvlock", "duration_sec": 118}}
+{"ts": "2026-03-10T13:36:00Z", "source": "FS-01", "host": "FS-01", "user": "svc-backup", "event": "file_create", "details": {"name": "README_RESTORE.txt", "copies": 37}}
+{"ts": "2026-03-10T13:41:00Z", "source": "HELPDESK", "host": "HELPDESK", "user": "multiple", "event": "user_report", "details": {"text": "Files will not open / strange .nvlock extension"}}
+{"ts": "2026-03-10T13:44:17Z", "source": "VPN-GW", "host": "VPN-GW", "user": "neha.singh", "event": "vpn_login", "details": {"src_ip": "192.0.2.29", "country": "IN", "mfa": false}}
+{"ts": "2026-03-10T13:51:06Z", "source": "PROXY-01", "host": "WS-021", "user": "kavya.nair", "event": "web_visit", "details": {"url": "https://intranet.novatech.example/wiki"}}
+{"ts": "2026-03-10T13:55:10Z", "source": "DC-01", "host": "WS-007", "user": "neha.singh", "event": "logon_success", "details": {"logon_type": 2, "src_host": "WS-007"}}
+{"ts": "2026-03-10T14:10:17Z", "source": "DC-01", "host": "WS-007", "user": "neha.singh", "event": "logon_failed", "details": {"logon_type": 2, "src_host": "WS-007"}}
+{"ts": "2026-03-10T14:46:59Z", "source": "DC-01", "host": "WS-003", "user": "amit.verma", "event": "logon_success", "details": {"logon_type": 2, "src_host": "WS-003"}}
+{"ts": "2026-03-10T15:05:53Z", "source": "VPN-GW", "host": "VPN-GW", "user": "kavya.nair", "event": "vpn_login", "details": {"src_ip": "192.0.2.90", "country": "IN", "mfa": false}}
+{"ts": "2026-03-10T15:08:05Z", "source": "DC-01", "host": "WS-007", "user": "neha.singh", "event": "logon_failed", "details": {"logon_type": 2, "src_host": "WS-007"}}
+{"ts": "2026-03-10T15:12:08Z", "source": "DC-01", "host": "WS-007", "user": "neha.singh", "event": "logon_failed", "details": {"logon_type": 2, "src_host": "WS-007"}}
+{"ts": "2026-03-10T15:13:45Z", "source": "PROXY-01", "host": "WS-021", "user": "kavya.nair", "event": "web_visit", "details": {"url": "https://news.example/tech"}}
+{"ts": "2026-03-10T15:27:09Z", "source": "DC-01", "host": "WS-011", "user": "rahul.mehta", "event": "logon_failed", "details": {"logon_type": 2, "src_host": "WS-011"}}
+{"ts": "2026-03-10T15:28:03Z", "source": "DC-01", "host": "WS-003", "user": "amit.verma", "event": "logon_success", "details": {"logon_type": 2, "src_host": "WS-003"}}
+{"ts": "2026-03-10T15:29:35Z", "source": "VPN-GW", "host": "VPN-GW", "user": "priya.sharma", "event": "vpn_login", "details": {"src_ip": "192.0.2.11", "country": "IN", "mfa": false}}
+{"ts": "2026-03-10T15:30:03Z", "source": "PROXY-01", "host": "WS-014", "user": "priya.sharma", "event": "web_visit", "details": {"url": "https://mail.novatech.example/inbox"}}
+{"ts": "2026-03-10T15:34:38Z", "source": "DC-01", "host": "WS-007", "user": "neha.singh", "event": "logon_success", "details": {"logon_type": 2, "src_host": "WS-007"}}
+{"ts": "2026-03-10T15:37:37Z", "source": "PROXY-01", "host": "WS-003", "user": "amit.verma", "event": "web_visit", "details": {"url": "https://intranet.novatech.example/wiki"}}
+{"ts": "2026-03-10T15:43:37Z", "source": "DC-01", "host": "WS-003", "user": "amit.verma", "event": "logon_success", "details": {"logon_type": 2, "src_host": "WS-003"}}
+{"ts": "2026-03-10T15:43:49Z", "source": "VPN-GW", "host": "VPN-GW", "user": "amit.verma", "event": "vpn_login", "details": {"src_ip": "192.0.2.53", "country": "IN", "mfa": false}}
+{"ts": "2026-03-10T15:48:08Z", "source": "PROXY-01", "host": "WS-003", "user": "amit.verma", "event": "web_visit", "details": {"url": "https://mail.novatech.example/inbox"}}
+{"ts": "2026-03-10T16:08:15Z", "source": "DC-01", "host": "WS-014", "user": "priya.sharma", "event": "logon_failed", "details": {"logon_type": 2, "src_host": "WS-014"}}
+{"ts": "2026-03-10T16:13:13Z", "source": "VPN-GW", "host": "VPN-GW", "user": "amit.verma", "event": "vpn_login", "details": {"src_ip": "192.0.2.73", "country": "IN", "mfa": false}}
+{"ts": "2026-03-10T16:32:35Z", "source": "DC-01", "host": "WS-007", "user": "neha.singh", "event": "logon_success", "details": {"logon_type": 2, "src_host": "WS-007"}}
+{"ts": "2026-03-10T16:57:23Z", "source": "DC-01", "host": "WS-021", "user": "kavya.nair", "event": "logon_failed", "details": {"logon_type": 2, "src_host": "WS-021"}}
+{"ts": "2026-03-10T17:04:14Z", "source": "DC-01", "host": "WS-003", "user": "amit.verma", "event": "logon_success", "details": {"logon_type": 2, "src_host": "WS-003"}}
+{"ts": "2026-03-10T17:14:53Z", "source": "VPN-GW", "host": "VPN-GW", "user": "priya.sharma", "event": "vpn_login", "details": {"src_ip": "192.0.2.17", "country": "IN", "mfa": false}}
+{"ts": "2026-03-10T17:17:13Z", "source": "DC-01", "host": "WS-007", "user": "neha.singh", "event": "logon_failed", "details": {"logon_type": 2, "src_host": "WS-007"}}
+{"ts": "2026-03-10T17:38:34Z", "source": "PROXY-01", "host": "WS-003", "user": "amit.verma", "event": "web_visit", "details": {"url": "https://mail.novatech.example/inbox"}}
+{"ts": "2026-03-10T17:42:28Z", "source": "VPN-GW", "host": "VPN-GW", "user": "kavya.nair", "event": "vpn_login", "details": {"src_ip": "192.0.2.76", "country": "IN", "mfa": false}}
+{"ts": "2026-03-10T17:43:03Z", "source": "DC-01", "host": "WS-003", "user": "amit.verma", "event": "logon_success", "details": {"logon_type": 2, "src_host": "WS-003"}}
+{"ts": "2026-03-10T17:45:14Z", "source": "DC-01", "host": "WS-007", "user": "neha.singh", "event": "logon_failed", "details": {"logon_type": 2, "src_host": "WS-007"}}
+{"ts": "2026-03-10T17:53:09Z", "source": "PROXY-01", "host": "WS-011", "user": "rahul.mehta", "event": "web_visit", "details": {"url": "https://news.example/tech"}}
+{"ts": "2026-03-10T17:56:09Z", "source": "DC-01", "host": "WS-021", "user": "kavya.nair", "event": "logon_failed", "details": {"logon_type": 2, "src_host": "WS-021"}}
